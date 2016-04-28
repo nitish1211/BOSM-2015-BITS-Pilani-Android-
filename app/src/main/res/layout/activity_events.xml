@@ -1,0 +1,23 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="false"
+    android:orientation="vertical"
+    tools:context="oasis.fest.napps.com.mylist.Schedule">
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="384dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:alpha="0.9"
+        android:src="@drawable/bosmlogo"/>
+    <ListView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/eventList"
+        android:smoothScrollbar="true"
+        android:scrollingCache="true"
+        android:clipToPadding="false"
+        android:animationCache="true"/>
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="oasis.fest.napps.com.bosm.Exhibits"
+    android:clipToPadding="false"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin">
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="384dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:alpha="0.9"
+        android:src="@drawable/bosmlogo"/>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/exhibitList"
+        android:elevation="4dp"
+        android:smoothScrollbar="true"
+        android:scrollingCache="true"
+        android:clipToPadding="false"
+        android:animationCache="true"
+        android:layout_gravity="center_horizontal" />
+
+
+</RelativeLayout>

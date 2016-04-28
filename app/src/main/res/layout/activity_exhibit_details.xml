@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="oasis.fest.napps.com.bosm.ExhibitDetails">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="215sp"
+                android:id="@+id/img"
+                android:src="@drawable/photbooth" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7sp"
+                android:textSize="27sp"
+                android:background="@drawable/big_card"
+                android:id="@+id/head"
+                android:textStyle="bold|italic"
+                android:layout_marginLeft="5sp"
+                android:textColor="@color/gray"
+                android:text="Photo Booth \n(DoPy)"
+                android:layout_below="@id/img"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/head"
+                android:layout_marginLeft="5sp"
+                android:layout_marginTop="15sp"
+                android:textSize="20sp"
+                android:id="@+id/description"
+                android:textColor="@color/material_red"
+                android:textStyle="bold"
+                android:text="Description"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/description"
+                android:id="@+id/details"
+                android:textStyle="italic"
+                android:textSize="17sp"
+                android:layout_alignLeft="@+id/description"
+                android:textColor="@color/material_blue_grey"
+                android:layout_marginTop="8sp"
+                android:background="@drawable/big_card"
+                android:layout_marginRight="5sp"
+                android:text="19th(5PM to 8PM), 29th(10AM to 12AM), 21st(4PM to 12AM) by DLE: You get two choices- Summon all your strength to overpower your opponent or lie in dust!"
+                />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/details"
+                android:textColor="@color/material_red"
+                android:textStyle="italic|bold"
+                android:id="@+id/location"
+                android:textSize="20sp"
+                android:layout_marginTop="10sp"
+                android:layout_marginBottom="10sp"
+                android:layout_alignLeft="@+id/details"
+                android:text="Loaction: SAC"
+                />
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

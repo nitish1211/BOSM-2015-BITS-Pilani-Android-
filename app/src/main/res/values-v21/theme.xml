@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomActionBarTheme" parent="android:Theme.Material.Light.DarkActionBar">
+        <item name="android:colorPrimary">@color/material_amber</item>
+        <item name="android:colorPrimaryDark">@color/dark_theme</item>
+    </style>
+
+    <style name="NoActionBarTheme" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:colorPrimary">@color/material_amber</item>
+        <item name="android:colorPrimaryDark">@color/dark_theme</item>
+    </style>
+</resources>
