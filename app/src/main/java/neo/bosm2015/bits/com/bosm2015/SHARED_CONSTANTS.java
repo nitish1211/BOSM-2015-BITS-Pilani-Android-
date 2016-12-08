@@ -65,7 +65,7 @@ public interface SHARED_CONSTANTS {
                 "Location: Auditorium",
                 "Location: Auditorium",
                 "Location: ET (2220)",
-                "Location: LTC 5102",
+                "Location: LTC 5101",
                 "Location: Gym Grounds",
                 "Location: given below",
                 "Location: NAB Audi",
